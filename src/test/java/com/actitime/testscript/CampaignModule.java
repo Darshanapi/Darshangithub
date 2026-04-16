@@ -9,6 +9,6 @@ import org.testng.annotations.Test;
 public class CampaignModule {
 	@Test
 	public  void CreateCamapaignTest() {
-		Reporter.log("Create Campaign",true);
+		Reporter.log("Campaign",true);
 
 }}
