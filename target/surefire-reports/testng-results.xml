@@ -5,12 +5,12 @@
       <![CDATA[Create Campaign]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-04-16T10:07:19 IST" name="TestSuite" finished-at="2026-04-16T10:07:19 IST" duration-ms="55">
+  <suite started-at="2026-04-16T10:12:26 IST" name="TestSuite" finished-at="2026-04-16T10:12:26 IST" duration-ms="55">
     <groups>
     </groups>
-    <test started-at="2026-04-16T10:07:19 IST" name="Test" finished-at="2026-04-16T10:07:19 IST" duration-ms="55">
+    <test started-at="2026-04-16T10:12:26 IST" name="Test" finished-at="2026-04-16T10:12:26 IST" duration-ms="55">
       <class name="com.actitime.testscript.CampaignModule">
-        <test-method signature="CreateCamapaignTest()[pri:0, instance:com.actitime.testscript.CampaignModule@3911c2a7]" started-at="2026-04-16T10:07:19 IST" name="CreateCamapaignTest" finished-at="2026-04-16T10:07:19 IST" duration-ms="8" status="PASS">
+        <test-method signature="CreateCamapaignTest()[pri:0, instance:com.actitime.testscript.CampaignModule@3911c2a7]" started-at="2026-04-16T10:12:26 IST" name="CreateCamapaignTest" finished-at="2026-04-16T10:12:26 IST" duration-ms="6" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Create Campaign]]>
