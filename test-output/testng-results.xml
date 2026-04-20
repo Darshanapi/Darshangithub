@@ -2,22 +2,52 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Campaign]]>
+      <![CDATA[Open Browser]]>
+    </line>
+    <line>
+      <![CDATA[Open Browser]]>
+    </line>
+    <line>
+      <![CDATA[CreateCustomer]]>
+    </line>
+    <line>
+      <![CDATA[Open Browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-04-16T17:19:35 IST" name="TestSuite" finished-at="2026-04-16T17:19:35 IST" duration-ms="205">
+  <suite started-at="2026-04-20T11:35:11 IST" name="Default suite" finished-at="2026-04-20T11:35:20 IST" duration-ms="9250">
     <groups>
     </groups>
-    <test started-at="2026-04-16T17:19:35 IST" name="Test" finished-at="2026-04-16T17:19:35 IST" duration-ms="205">
-      <class name="com.actitime.testscript.CampaignModule">
-        <test-method signature="CreateCamapaignTest()[pri:0, instance:com.actitime.testscript.CampaignModule@443118b0]" started-at="2026-04-16T17:19:35 IST" name="CreateCamapaignTest" finished-at="2026-04-16T17:19:35 IST" duration-ms="35" status="PASS">
+    <test started-at="2026-04-20T11:35:11 IST" name="Default test" finished-at="2026-04-20T11:35:20 IST" duration-ms="9250">
+      <class name="com.actitimej.testscript.CreateCustomer">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.actitimej.testscript.CreateCustomer@79079097]" started-at="2026-04-20T11:35:11 IST" name="openBrowser" finished-at="2026-04-20T11:35:13 IST" duration-ms="2692" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Campaign]]>
+              <![CDATA[Open Browser]]>
             </line>
           </reporter-output>
-        </test-method> <!-- CreateCamapaignTest -->
-      </class> <!-- com.actitime.testscript.CampaignModule -->
-    </test> <!-- Test -->
-  </suite> <!-- TestSuite -->
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.actitimej.testscript.CreateCustomer@79079097]" started-at="2026-04-20T11:35:13 IST" name="login" finished-at="2026-04-20T11:35:14 IST" duration-ms="672" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Open Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="testCreateCustomer()[pri:0, instance:com.actitimej.testscript.CreateCustomer@79079097]" started-at="2026-04-20T11:35:14 IST" name="testCreateCustomer" finished-at="2026-04-20T11:35:20 IST" duration-ms="5636" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[CreateCustomer]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCreateCustomer -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.actitimej.testscript.CreateCustomer@79079097]" started-at="2026-04-20T11:35:20 IST" name="closeBrowser" finished-at="2026-04-20T11:35:20 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Open Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.actitimej.testscript.CreateCustomer -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
